@@ -100,8 +100,6 @@ hourly_avg <- dbplyr_act |>
   summarise(mean_minutes = mean(minutes, na.rm = TRUE)) |>
   collect() |>
   arrange(sex, major_name, hour)
-
-print(hourly_avg)
 ```
 
 ```{r}

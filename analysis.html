@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="cell">
 <div class="cell-output cell-output-stderr">
 <pre><code>duckdb keeps downloaded extensions and secrets in a temporary directory:
-ℹ /tmp/RtmppxkiUT/duckdb
+ℹ /tmp/RtmpECCieq/duckdb
 This is removed when the R session ends.
 • Extensions are re-downloaded each session.
 • Secrets are lost.
@@ -115,23 +115,6 @@ This is removed when the R session ends.
 ! Grouped output by "sex" and "major_name".
 ℹ Override behaviour and silence this message with the `.groups` argument.
 ℹ Or use `.by` instead of `group_by()`.</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 144 × 4
-# Groups:   sex, major_name [8]
-   sex    major_name  hour mean_minutes
-   &lt;chr&gt;  &lt;chr&gt;      &lt;dbl&gt;        &lt;dbl&gt;
- 1 Female Education      6        214. 
- 2 Female Education      7        241. 
- 3 Female Education      8        208. 
- 4 Female Education      9        143. 
- 5 Female Education     10        122. 
- 6 Female Education     11        142. 
- 7 Female Education     12        136. 
- 8 Female Education     13        113. 
- 9 Female Education     14         98.8
-10 Female Education     15         95.3
-# ℹ 134 more rows</code></pre>
 </div>
 </div>
 <div class="cell">
